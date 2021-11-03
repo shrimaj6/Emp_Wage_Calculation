@@ -6,9 +6,33 @@ namespace uc1_present_absent
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to emp_wage_computation");
-            Console.ReadKey();
+
+  
+        
+            {
+                int IsFullTime = 1;
+
+                Random random = new Random();
+
+                int empCheck = random.Next(0, 2);
+
+                if (empCheck == IsFullTime)
+                {
+                    Console.WriteLine("Employee is present");
+
+                }
+
+                else
+                {
+                    Console.WriteLine("Employee is absent");
+
+                }
+
+
+            }
         }
+
+
     }
 
 }
